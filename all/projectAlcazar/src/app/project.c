@@ -328,7 +328,7 @@ int projectInit(void)
 
 	txUARTch('s');
 	txUARTch(state + '0');
-	txUARTch(' ');
+	txUARTch('c');
 
 	//we make a "game" by enabling different color transitions depending on a state variable
 	switch(state)
